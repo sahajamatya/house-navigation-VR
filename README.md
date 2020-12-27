@@ -27,3 +27,10 @@ error: bundling failed: Error: `fsevents` unavailable (this watcher can only be 
 
 run `brew install watchman` and then `npm start` again. 
 
+## Support for mobile
+
+Installing [webVR polyfill](https://github.com/immersive-web/webvr-polyfill) will enable stereoscopic rendering of VR into our mobile phones. You can install it by running the following command in the project directory:
+
+```
+npm install --save webvr-polyfill
+```
